@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body> 
-    <table border="2">
+    <table border="2" style="margin-left: 200px;">
         <tr>
             <th colspan="4">
                 <strong> Pizza Shop 2.0</strong>
@@ -17,16 +17,16 @@
         <!-- prva redica -->
 
         <tr>
-            <th>Name</th>
-            <th><input type="text" maxlength="30" size="30"></th>
+            <th align="left">Name</th>
+            <th align="left"><input type="text" maxlength="30" size="30"></th>
         </tr>
 
         <!-- vtora redica -->
 
         <tr>
-            <th>Pizza Topping</th>
+            <th align="left">Pizza Topping</th>
             <th>
-                <ul>
+                <ul style="list-style-type: none; padding: 0; margin: 0; text-align: left;">
                     <li><input type="radio">Supreme</li>
                     <li><input type="radio">Vegetarian</li>
                     <li><input type="radio">Hawaiian</li>
@@ -37,8 +37,8 @@
         <!-- treta redica -->
 
         <tr>
-            <th>Pizza Souce</th>
-            <th align="left"><select name="choices" id="">
+            <th align="left">Pizza Souce</th>
+            <th align="left"><select name="choices">
                 <option selected>Tommato</option>
                 <option>Ketchap</option>
                 <option>Salami</option>
@@ -50,8 +50,8 @@
 
         <tr>
 
-            <th>Optional Extras</th>
-            <th><input type="checkbox"><label>Extra Cheese</label>
+            <th align="left">Optional Extras</th>
+            <th align="left"><input type="checkbox"><label>Extra Cheese</label>
                 <input type="checkbox"><label>Gluten Free Base</label></th>
           
 
@@ -60,9 +60,9 @@
         <!-- petta redica -->
 
         <tr>
-           <th colspan="2" align="left">
+           <th colspan="2" align="left" >
            Delivery Instructions <br>
-           <textarea name="Delivery instructions" size ="50" cols="50" ></textarea>
+           <textarea name="Delivery instructions" size ="50" cols="50" rows="4"></textarea>
            </th>
        
         </tr>
@@ -70,7 +70,7 @@
         <!-- shesta redica -->
 
         <tr>
-            <th colspan="2" align="left"><input type="submit" value="Submit my order"></th>
+            <th colspan="2" align="left"><input type="submit" value="Send my order"></th>
         </tr>
 
         <!-- sedma redica -->
