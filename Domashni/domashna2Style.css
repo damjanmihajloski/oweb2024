@@ -1,0 +1,23 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+
+table{
+    background-color: rgb(190, 190, 226);
+}
+
+input[type = "text"], select, textarea {
+    width: 100%;
+    background-color: aqua;
+    margin: 5px 0  5px 0;
+    box-sizing: border-box;
+}
+
+input[type = "submit"]{
+    background-color: chartreuse;
+    border-radius: 15px;
+    font-size: medium;
+    font-weight: bold;
+    font-style: oblique;
+}
