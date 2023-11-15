@@ -1,0 +1,300 @@
+ 
+ * {  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    /* background-color: #62c370; */
+    background-color: #E5F2C9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    display: flex;
+    text-decoration: none;
+    font-size: 30px ;
+    margin-right: none;  
+    color: #340068;  
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 350px ;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: #340068;
+}
+
+.navbar a:hover, 
+.navbar a.Home
+{
+    color: red;
+      
+}
+
+.nav-icon {
+    display:flex;
+}
+.nav-icon a{
+    color: red;
+}
+.icon {
+    margin-right: 10px;
+    font-size: 18px;
+}
+.nav-icon a:hover{
+    transform: scale(1.5);
+    color: black;
+}
+
+/* End of editing the header */
+
+section{
+    padding: 5% 10%;
+}
+
+.new-Arrivals{
+    width: 100%;
+    height: 100vh;
+    background-image: url(snowboardingHome.webp);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    margin-top:  75px;
+    align-items: center;
+    padding: 250px;
+    grid-template-columns: repeat(1.1fr) ;
+   
+    
+}
+
+.text-section{
+    position: relative;
+    text-align: center;
+    display: grid;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1) ;
+
+}
+
+.text-section h1 {
+    color: #1F0318;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    /* margin: 6px 0 10px;  */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-section h5 {
+    color: #1F0318;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding-bottom: 2px;
+
+    
+}
+
+.text-section p {
+    font-size: 20px;
+    color: #1F0318;
+    padding-top: 2px ;
+    text-transform: capitalize;
+}
+
+.text-section button {
+    width: 100px;
+    margin-left: 300px ;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #340068;
+    color: white;
+    padding: 5px;
+    font-style: oblique;
+}
+
+.text-section a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mycontainer {
+    display: flex;
+    /* padding: 20px; */
+    background-color: whitesmoke;
+    /* align-items: ; */
+}
+
+.mycontainer > div {
+    width: 33%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.Best-deals {
+    color: #1F0318;
+    font-size: 45px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    padding: 10px 10px 10px;
+
+}
+
+.mycontainer img{
+    width: 100% ;
+    height: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.info input{
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    outline: 0;
+    border: 1px solid #ccc;
+    background-color: aquamarine;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+    height: 60px;
+}
+
+.info input::placeholder{
+    position: apsolute;
+    top: 50%;
+    text-align: left;
+    padding-top: 1px;
+    font-style: italic;
+}
+
+.info i {
+    font-size: 24px;
+    margin-top: 2%;
+    padding-right: 94%;
+
+}
+
+.elements{
+    /* border: 2px solid black; */
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px;
+}
+
+.comment {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    outline: 0;
+    border: 1px solid #ccc;
+    background-color: aquamarine;
+    box-sizing: border-box;
+}
+
+.like-count {
+    margin-right: 95%;
+    font-size: 16px;
+}
+
+.info i:hover{
+    color: red;
+}
+
+.footer {
+    background-color: #340068;
+    color:#E5F2C9;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .footer-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.social-icons a:hover {
+    color: red;
+}
+
+.popup-container {
+    display: none;
+    position: fixed; /* Changed to fixed positioning */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: auto; /* Adjust width as needed */
+    max-width: 80%; /* Prevents the popup from being too wide on larger screens */
+}
+
+/* ... other styles ... */
+
+
+.star-rating {
+    font-size: 40px;
+    color: #444;
+    cursor: pointer;
+    display: flex; /* Align stars inline */
+    justify-content: center; /* Center stars horizontally */
+}
+
+.star-rating .bx:hover,
+.star-rating .bx:hover ~ .bx {
+    color: gold; /* Change color on hover */
+}

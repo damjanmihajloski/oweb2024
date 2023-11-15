@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+ background-color: #E5F2C9;
+}
+
+.mycontainer {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.mycontainer > div {
+    width: 33%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.mycontainer img{
+    width: 100% ;
+    height: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.info input{
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    outline: 0;
+    border: 1px solid #ccc;
+    background-color: aquamarine;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+    height: 60px;
+}
+
+.info input::placeholder{
+    position: apsolute;
+    top: 50%; 
+    text-align: left;
+    padding-top: 1px;
+    font-style: italic;
+}
+
+.info i {
+    font-size: 24px;
+    margin-top: 2%;
+    padding-right: 94%;
+
+}
+
+.Best-deals {
+    color: #1F0318;
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    padding: 5px 5px 5px;
+
+}
+
+.elements{
+    /* border: 2px solid black; */
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px;
+}
+
+#addPostButton {
+    background-color: #340068; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.like-count {
+    margin-right: 95%;
+    font-size: 16px;
+}
+
+.info i:hover{
+    color: red;
+}
+
+.comment-section {
+    margin-top: 10px;
+}
+
+.comment-section div {
+    background-color: aquamarine;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.info button {
+    margin-top: 10px;
+    /* Additional styles for the button */
+}
+
