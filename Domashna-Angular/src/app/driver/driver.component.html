@@ -1,0 +1,25 @@
+<div [ngClass]="klasi()" [ngStyle]="colours()" >
+    <div class="course-title">
+      {{ reden + ". " + vozac.name }}
+    </div>
+    <ng-template #noImg>
+      <p>No photo</p>
+    </ng-template>
+    <img [src]="vozac.iconUrl" *ngIf="vozac.iconUrl; else noImg" />
+  
+    <div class="course-description">
+      {{ vozac.team }}
+    </div>
+  
+    <div  [ngStyle]="colours()">
+      <p>Lessons Count: {{ vozac.lessonsCount }}</p>
+    </div>
+    <div>Points:{{ vozac.points }}</div>
+    <div class="course-category">Category: {{ vozac.category }}</div>
+    <div class="course-description">
+      {{ vozac.description }}
+    </div>
+    <div>
+      <button (click)="klik()">Click me</button>
+    </div>
+  </div>
